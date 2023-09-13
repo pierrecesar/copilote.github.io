@@ -23,11 +23,11 @@ body, html {
   max-width: 100%;
 
   position: absolute; /* Positionnement absolu pour l'aligner correctement */
-  bottom: 25%; /* Aligné juste au-dessus du bouton */
+  bottom: 15%; /* Aligné juste au-dessus du bouton */
   top: 0px;
   left: 50%; /* Centrer l'image horizontalement */
 
-  height: calc(100% - 25%); /* Aligné juste au-dessus du bouton */
+  height: calc(100% - 15%); /* Aligné juste au-dessus du bouton */
 
   transform: translateX(-50%); /* Utilisez la transformation pour centrer parfaitement l'image */
 }
