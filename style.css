@@ -6,7 +6,7 @@ body, html {
 }
 
 .background {
-  background-image: url('Images/copiloteBG.jpg');
+  background-image: url('Images/copiloteBG2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,6 +15,19 @@ body, html {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+}
+
+
+.discussion-bg {
+  width: auto; /* Ajustez la largeur automatiquement pour maintenir le rapport d'aspect de l'image */
+  position: absolute; /* Positionnement absolu pour l'aligner correctement */
+  bottom: 25%; /* Aligné juste au-dessus du bouton */
+  top: 0px;
+  left: 50%; /* Centrer l'image horizontalement */
+
+  height: calc(100% - 25%); /* Aligné juste au-dessus du bouton */
+
+  transform: translateX(-50%); /* Utilisez la transformation pour centrer parfaitement l'image */
 }
 
 .blue-button {
