@@ -20,6 +20,8 @@ body, html {
 
 .discussion-bg {
   width: auto; /* Ajustez la largeur automatiquement pour maintenir le rapport d'aspect de l'image */
+  max-width: 100%;
+
   position: absolute; /* Positionnement absolu pour l'aligner correctement */
   bottom: 25%; /* Aligné juste au-dessus du bouton */
   top: 0px;
